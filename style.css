@@ -189,11 +189,11 @@ footer {
 
 /*  sessão sobre  */
 
-/* .item {
+.item {
   display: flex;
   left: auto;
   border: 2px solid #adb2b9;
-} */
+}
 
 /* .ilustracaodomeurosto{
     border: 5px solid #adb2b9;
@@ -202,9 +202,10 @@ footer {
 .about .title::after {
   content: "Quem sou eu";
 }
-/* .about .about-content .left{
-    width: 50%;
-} */
+.about .about-content .left{
+    width: 35%;
+    
+}
 .about .about-content .right {
   width: 55%;
 }
