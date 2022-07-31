@@ -203,7 +203,7 @@ footer {
   content: "Quem sou eu";
 }
 .about .about-content .left{
-    width: 35%;
+    width: 35% ;
     
 }
 .about .about-content .right {
@@ -240,7 +240,7 @@ footer {
   width: 400px;
   height: 400px;
   object-fit: cover;
-  border-radius: 6px;
+  display: flex;
 }
 .items-3 {
   background-color: #fff;
