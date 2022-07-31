@@ -1,582 +1,883 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfólio</title>
-    
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="css/gallery.theme.css">
-    <link rel="stylesheet" href="css/gallery.min.css">
-</head>
-<body>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/gallery.theme.css" />
+    <link rel="stylesheet" href="css/gallery.min.css" />
+  </head>
+  <body>
     <div class="scroll-up-btn">
-        <ion-icon name="chevron-up-outline"></ion-icon>
+      <ion-icon name="chevron-up-outline"></ion-icon>
     </div>
     <div class="navbar">
-        <div class="max-width">
-            <div class="logo"><a href="#teams">Port<span>fólio</span></a></div>
-            <ul class="menu">
-                <li><a href="#home">Inicio</a></li>
-                <li><a href="#about">Sobre</a></li>
-                <li><a href="#services">Serviços</a></li>
-                <li><a href="#skills">Especialidades</a></li>
-                <li><a href="#teams">Projetos</a></li>
-                <li><a href="#certificados">Certificados</a></li>
-                <li><a href="#contact">Contato</a></li>
-                <li><a href="https://github.com/edvaldoljr" target="_blank">GitHub</a></li>
-            </ul>
-            <div class="menu-btn">
-                <ion-icon name="menu-outline"></ion-icon>
-            </div>
+      <div class="max-width">
+        <div class="logo">
+          <a href="#teams">Port<span>fólio</span></a>
         </div>
+        <ul class="menu">
+          <li><a href="#home">Inicio</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#services">Serviços</a></li>
+          <li><a href="#skills">Especialidades</a></li>
+          <li><a href="#teams">Projetos</a></li>
+          <li><a href="#certificados">Certificados</a></li>
+          <li><a href="#contact">Contato</a></li>
+          <li>
+            <a href="https://github.com/edvaldoljr" target="_blank">GitHub</a>
+          </li>
+        </ul>
+        <div class="menu-btn">
+          <ion-icon name="menu-outline"></ion-icon>
+        </div>
+      </div>
     </div>
 
     <!--home inicio-->
     <section class="home" id="home">
-        <div class="max-width">
-            <div class="home-content">
-                <div class="text-1">Ola, meu nome é</div>
-                <div class="text-2">Edvaldo Junior</div>
-                <div class="text-3">eu sou <span class="typing"></span></div>
-                <a href="#contact">Contato</a>
-            </div>
+      <div class="max-width">
+        <div class="home-content">
+          <div class="text-1">Ola, meu nome é</div>
+          <div class="text-2">Edvaldo Junior</div>
+          <div class="text-3">eu sou <span class="typing"></span></div>
+          <a href="#contact">Contato</a>
         </div>
+      </div>
     </section>
 
     <!--sessão sobre-->
     <section class="about" id="about">
-        <div class="max-width">
-            <h2 class="title">Sobre</h2>
-            <div class="about-content">
-                <div class="column left">
-                    <img class="ilustracaodomeurosto" src="image/eu.jpg" alt="">
-                </div>
-                <div class="column right">
-                    <div class="text">Sou Edvaldo e sou <span class="typing-2"></span></div>
-                    <p>Venho me dedicando á vários Bootcamps e cursos para aprimorar meus conhecimentos
-                        em Desenvolvimeno de Softwares e me manter atualizado.
-                        Tenho grande apreço e muito gosto pelos estudos, acredito  na tecnologia como solução
-                        e facilitação de várias situações vividas diariamente. Das mais simples até as mais complexas e com bom preparo,
-                        é possível alcançar todas as metas. 
+      <div class="max-width">
+        <h2 class="title">Sobre</h2>
+        <div class="about-content">
+          <div class="column left">
+            <div class="gallery autoplay items-5">
+              <div id="item-1" class="control-operator"></div>
+              <div id="item-2" class="control-operator"></div>
+              <div id="item-3" class="control-operator"></div>
+              <div id="item-4" class="control-operator"></div>
+              <div id="item-5" class="control-operator"></div>
 
-                    </p>
-                    
-                </div>
+              <figure class="item">
+                <img src="image/eu.jpg" />
+              </figure>
+
+              <figure class="item">
+                <h1><img src="image/eu7.jpg" /></h1>
+              </figure>
+
+              <figure class="item">
+                <h1><img src="image/eu3.jpg" /></h1>
+              </figure>
+
+              <figure class="item">
+                <h1><img src="image/eu5.jpg" /></h1>
+              </figure>
+
+              <figure class="item">
+                <h1><img src="image/eu6.jpg" /></h1>
+              </figure>
+
+              <div class="controls">
+                <a href="#item-1" class="control-button">.</a>
+                <a href="#item-2" class="control-button">.</a>
+                <a href="#item-3" class="control-button">.</a>
+                <a href="#item-4" class="control-button">.</a>
+                <a href="#item-5" class="control-button">.</a>
+              </div>
             </div>
+          </div>
+          <div class="column right">
+            <div class="text">
+              Sou Edvaldo e sou <span class="typing-2"></span>
+            </div>
+            <p>
+              Venho me dedicando á vários Bootcamps e cursos para aprimorar meus
+              conhecimentos em Desenvolvimeno de Softwares e me manter
+              atualizado. Tenho grande apreço e muito gosto pelos estudos,
+              acredito na tecnologia como solução e facilitação de várias
+              situações vividas diariamente. Das mais simples até as mais
+              complexas e com bom preparo, é possível alcançar todas as metas.
+            </p>
+          </div>
         </div>
+      </div>
     </section>
 
-     <!--sessão serviços-->
-     <section class="services" id="services">
-        <div class="max-width">
-            <h2 class="title">Serviços</h2>
-            <div class="serv-content">
-               <div class="card">
-                   <div class="box">
-                    <ion-icon name="brush-outline"></ion-icon>
-                    <div class="text">Front-end</div>
-                
-                   </div>
-               </div>
+    <!--sessão serviços-->
+    <section class="services" id="services">
+      <div class="max-width">
+        <h2 class="title">Serviços</h2>
+        <div class="serv-content">
+          <div class="card">
+            <div class="box">
+              <ion-icon name="brush-outline"></ion-icon>
+              <div class="text">Front-end</div>
+            </div>
+          </div>
 
-               <div class="card">
-                <div class="box">
-                    <ion-icon name="trending-up-outline"></ion-icon>
-                 <div class="text">Back-End</div>
-                 
-                </div>
+          <div class="card">
+            <div class="box">
+              <ion-icon name="trending-up-outline"></ion-icon>
+              <div class="text">Back-End</div>
             </div>
+          </div>
 
-            <div class="card">
-                <div class="box">
-                    <ion-icon name="code-outline"></ion-icon>
-                 <div class="text">Full-Stack</div>
-                 
-                </div>
+          <div class="card">
+            <div class="box">
+              <ion-icon name="code-outline"></ion-icon>
+              <div class="text">Full-Stack</div>
             </div>
-            </div>
+          </div>
         </div>
+      </div>
     </section>
 
-     <!--sessão especialidade-->
-     <section class="skills" id="skills">
-        <div class="max-width">
-            <h2 class="title">Especialidades</h2>
-            <div class="skills-content">
-                <div class="column left">
-                    <div class="text">Minhas habilidades criativas e experiencias</div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod assumenda consequatur facere eius distinctio deleniti reiciendis aliquam architecto suscipit, at, dolores dicta sed adipisci laborum, totam dolorum enim maxime aliquid eos. Ullam, et maiores porro voluptatum explicabo deleniti sint rem quam! Delectus iste ut hic, molestias adipisci totam ipsum reiciendis quam voluptatem nisi cumque saepe ea cupiditate. Vel, quae est!</p>
-                    <a href="#">Certificados</a>
-                </div>
-                <div class="column right">
-                   <div class="bars">
-                       <div class="info">
-                           <span>Java</span>
-                           <span>80%</span>
-                       </div>
-                       <div class="line java"></div>
-                   </div>
-                   <div class="bars">
-                    <div class="info">
-                        <span>HTML</span>
-                        <span>45%</span>
-                    </div>
-                    <div class="line html"></div>
-                </div>
-                <div class="bars">
-                    <div class="info">
-                        <span>CSS</span>
-                        <span>40%</span>
-                    </div>
-                    <div class="line css"></div>
-                </div>
-                <div class="bars">
-                    <div class="info">
-                        <span>JavaScript</span>
-                        <span>30%</span>
-                    </div>
-                    <div class="line js"></div>
-                </div>
-                <div class="bars">
-                    <div class="info">
-                        <span>MySQL</span>
-                        <span>30%</span>
-                    </div>
-                    <div class="line mysql"></div>
-                </div>
-                <div class="bars">
-                    <div class="info">
-                        <span>PostgreSQL</span>
-                        <span>42%</span>
-                    </div>
-                    <div class="line postgres"></div>
-                </div>
-                <div class="bars">
-                    <div class="info">
-                        <span>Docker</span>
-                        <span>20%</span>
-                    </div>
-                    <div class="line docker"></div>
-                </div>
-                </div>
+    <!--sessão especialidade-->
+    <section class="skills" id="skills">
+      <div class="max-width">
+        <h2 class="title">Especialidades</h2>
+        <div class="skills-content">
+          <div class="column left">
+            <!-- <div class="text">Minhas habilidades</div> -->
+            <div class="habilidades">
+            <img class="imaghabilidades" src="image/eu4.jpg" /></h1>
             </div>
+            <!-- <a href="#">Certificados</a> -->
+          </div>
+          <div class="column right">
+            <div class="bars">
+              <div class="info">
+                <span>Java</span>
+                <span>80%</span>
+              </div>
+              <div class="line java"></div>
+            </div>
+            <div class="bars">
+              <div class="info">
+                <span>HTML</span>
+                <span>45%</span>
+              </div>
+              <div class="line html"></div>
+            </div>
+            <div class="bars">
+              <div class="info">
+                <span>CSS</span>
+                <span>40%</span>
+              </div>
+              <div class="line css"></div>
+            </div>
+            <div class="bars">
+              <div class="info">
+                <span>JavaScript</span>
+                <span>30%</span>
+              </div>
+              <div class="line js"></div>
+            </div>
+            <div class="bars">
+              <div class="info">
+                <span>MySQL</span>
+                <span>30%</span>
+              </div>
+              <div class="line mysql"></div>
+            </div>
+            <div class="bars">
+              <div class="info">
+                <span>PostgreSQL</span>
+                <span>42%</span>
+              </div>
+              <div class="line postgres"></div>
+            </div>
+            <div class="bars">
+              <div class="info">
+                <span>Docker</span>
+                <span>20%</span>
+              </div>
+              <div class="line docker"></div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
-     <!--sessão projetos-->
-     <section class="teams" id="teams">
-        <div class="max-width">
-            <h2 class="title">Projetos</h2>
-           <div class="carousel owl-carousel ">
-               <div class="card">
-                   <div class="box" >
-                    <a href="https://alurakut-nine-eta.vercel.app/login" target="_blank"><img src="image/alura.png" alt="" ></a>
-                       <div class="text">Alura - AluraKut</div>
-                   </div>
-               </div>
-               <div class="card">
-                <div class="box">
-                    <a href="https://food-box-seven.vercel.app/" target="_blank"><img src="image/driven.png" alt=""></a>
-                    <div class="text">Driven - FoodBox</div>
-                    
-                </div>
+    <!--sessão projetos-->
+    <section class="teams" id="teams">
+      <div class="max-width">
+        <h2 class="title">Projetos</h2>
+        <div class="carousel owl-carousel">
+          <div class="card">
+            <div class="box">
+              <a
+                href="https://alurakut-nine-eta.vercel.app/login"
+                target="_blank"
+                ><img src="image/alura.png" alt=""
+              /></a>
+              <div class="text">Alura - AluraKut</div>
             </div>
-            <div class="card">
-                <div class="box">
-                    <a href="https://edvaldoljr.github.io/Projeto-Marvel-MapaDev-Week-2022/" target="_blank"><img src="image/dobro.jpg" alt=""></a>
-                    <div class="text">Tela personagens</div>
-                </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <a href="https://food-box-seven.vercel.app/" target="_blank"
+                ><img src="image/driven.png" alt=""
+              /></a>
+              <div class="text">Driven - FoodBox</div>
             </div>
-            <div class="card">
-                <div class="box">
-                    <a href="https://santander-innovation-bootcamp.herokuapp.com/bootcamp/swagger-ui/index.html?configUrl=/bootcamp/v3/api-docs/swagger-config" target="_blank"><img src="image/API.png" alt=""></a>
-                    <div class="text">Santander Bootcamp-API</div>
-                </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <a
+                href="https://edvaldoljr.github.io/Projeto-Marvel-MapaDev-Week-2022/"
+                target="_blank"
+                ><img src="image/dobro.jpg" alt=""
+              /></a>
+              <div class="text">Tela personagens</div>
             </div>
-            <div class="card">
-                <div class="box">
-                    <a href="https://bootcamp-front-end-angular.vercel.app/"><img src="image/santander.png" alt=""></a>
-                    <div class="text">Santander Bootcamp</div>
-                </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <a
+                href="https://santander-innovation-bootcamp.herokuapp.com/bootcamp/swagger-ui/index.html?configUrl=/bootcamp/v3/api-docs/swagger-config"
+                target="_blank"
+                ><img src="image/API.png" alt=""
+              /></a>
+              <div class="text">Santander Bootcamp-API</div>
             </div>
-           </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <a href="https://bootcamp-front-end-angular.vercel.app/"
+                ><img src="image/santander.png" alt=""
+              /></a>
+              <div class="text">Santander Bootcamp</div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!--sessão certificados-->
     <section class="certificados" id="certificados">
-        <div class="max-width">
-            <h2 class="title">Certificados</h2>
-           <div class="carousel owl-carousel ">
-            <div class="card">
-                <div class="box">
-                    <a href="https://www.dio.me/certificate/E2826BDE/share" target="_blank"><img src="image/certificados/amdocs.jpg" alt=""></a>
-                </div>
+      <div class="max-width">
+        <h2 class="title">Certificados</h2>
+        <div class="carousel owl-carousel">
+          <div class="card">
+            <div class="box">
+              <a
+                href="https://www.dio.me/certificate/E2826BDE/share"
+                target="_blank"
+                ><img src="image/certificados/amdocs.jpg" alt=""
+              /></a>
             </div>
-            <div class="card">
-                <div class="box">
-                    <a href="https://www.dio.me/certificate/815A4E4B/share" target="_blank"><img src="image/certificados/gft.jpg" alt=""></a>
-                </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <a
+                href="https://www.dio.me/certificate/815A4E4B/share"
+                target="_blank"
+                ><img src="image/certificados/gft.jpg" alt=""
+              /></a>
             </div>
-            <div class="card">
-                <div class="box">
-                    <a href="https://kenzie.com.br/" target="_blank"><img src="image/certificados/kenzie.jpg" alt=""></a>
-                </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <a href="https://kenzie.com.br/" target="_blank"
+                ><img src="image/certificados/kenzie.jpg" alt=""
+              /></a>
             </div>
-               <div class="card">
-                   <div class="box" >
-                    <a href="https://www.dio.me/certificate/F5464A4D/share " target="_blank"><img src="image/certificados/1.jpg" alt="" ></a>
-                   </div>
-               </div>
-               <div class="card">
-                <div class="box">
-                    <a href="https://www.dio.me/certificate/5BDE835F/share" target="_blank"><img src="image/certificados/2.jpg" alt=""></a>  
-                </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <a
+                href="https://www.dio.me/certificate/F5464A4D/share "
+                target="_blank"
+                ><img src="image/certificados/1.jpg" alt=""
+              /></a>
             </div>
-            <div class="card">
-                <div class="box">
-                    <a href="https://www.dio.me/certificate/CF5B7DC0/share" target="_blank"><img src="image/certificados/3.jpg" alt=""></a>
-                </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <a
+                href="https://www.dio.me/certificate/5BDE835F/share"
+                target="_blank"
+                ><img src="image/certificados/2.jpg" alt=""
+              /></a>
             </div>
-            <div class="card">
-                <div class="box">
-                    <a href="https://www.dio.me/certificate/3F0744FB/share" target="_blank"><img src="image/certificados/4.jpg" alt=""></a>
-                </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <a
+                href="https://www.dio.me/certificate/CF5B7DC0/share"
+                target="_blank"
+                ><img src="image/certificados/3.jpg" alt=""
+              /></a>
             </div>
-            <div class="card">
-                <div class="box">
-                    <a href="https://www.dio.me/certificate/A1E06B71/share" target="_blank"><img src="image/certificados/5.jpg" alt=""></a>
-                </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <a
+                href="https://www.dio.me/certificate/3F0744FB/share"
+                target="_blank"
+                ><img src="image/certificados/4.jpg" alt=""
+              /></a>
             </div>
-            <div class="card">
-                <div class="box">
-                    <a href="https://www.dio.me/certificate/38B9D7F4/share" target="_blank"><img src="image/certificados/6.jpg" alt=""></a>
-                </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <a
+                href="https://www.dio.me/certificate/A1E06B71/share"
+                target="_blank"
+                ><img src="image/certificados/5.jpg" alt=""
+              /></a>
             </div>
-            <div class="card">
-                <div class="box">
-                    <a href="https://www.dio.me/certificate/C38F2F70/share" target="_blank"><img src="image/certificados/7.jpg" alt=""></a>
-                </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <a
+                href="https://www.dio.me/certificate/38B9D7F4/share"
+                target="_blank"
+                ><img src="image/certificados/6.jpg" alt=""
+              /></a>
             </div>
-            <div class="card">
-                <div class="box">
-                    <a href="https://www.dio.me/certificate/C4B09451/share" target="_blank"><img src="image/certificados/8.jpg" alt=""></a>
-                </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <a
+                href="https://www.dio.me/certificate/C38F2F70/share"
+                target="_blank"
+                ><img src="image/certificados/7.jpg" alt=""
+              /></a>
             </div>
-            <div class="card">
-                <div class="box">
-                    <a href="https://www.dio.me/certificate/A2FAC0AB/share" target="_blank"><img src="image/certificados/9.jpg" alt=""></a>
-                </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <a
+                href="https://www.dio.me/certificate/C4B09451/share"
+                target="_blank"
+                ><img src="image/certificados/8.jpg" alt=""
+              /></a>
             </div>
-            <div class="card">
-                <div class="box">
-                    <a href="https://www.dio.me/certificate/571DB391/share" target="_blank"><img src="image/certificados/10.jpg" alt=""></a>
-                </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <a
+                href="https://www.dio.me/certificate/A2FAC0AB/share"
+                target="_blank"
+                ><img src="image/certificados/9.jpg" alt=""
+              /></a>
             </div>
-            <div class="card">
-                <div class="box">
-                    <a href="https://www.dio.me/certificate/25DFA359/share" target="_blank"><img src="image/certificados/11.jpg" alt=""></a>
-                </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <a
+                href="https://www.dio.me/certificate/571DB391/share"
+                target="_blank"
+                ><img src="image/certificados/10.jpg" alt=""
+              /></a>
             </div>
-            <div class="card">
-                <div class="box">
-                    <a href="https://www.dio.me/certificate/6A040375/share" target="_blank"><img src="image/certificados/12.jpg" alt=""></a>
-                </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <a
+                href="https://www.dio.me/certificate/25DFA359/share"
+                target="_blank"
+                ><img src="image/certificados/11.jpg" alt=""
+              /></a>
             </div>
-            <div class="card">
-                <div class="box">
-                    <a href="https://www.dio.me/certificate/1E47D443/share" target="_blank"><img src="image/certificados/13.jpg" alt=""></a>
-                </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <a
+                href="https://www.dio.me/certificate/6A040375/share"
+                target="_blank"
+                ><img src="image/certificados/12.jpg" alt=""
+              /></a>
             </div>
-            <div class="card">
-                <div class="box">
-                    <a href="https://www.dio.me/certificate/9B0A195B/share" target="_blank"><img src="image/certificados/14.jpg" alt=""></a>
-                </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <a
+                href="https://www.dio.me/certificate/1E47D443/share"
+                target="_blank"
+                ><img src="image/certificados/13.jpg" alt=""
+              /></a>
             </div>
-            <div class="card">
-                <div class="box">
-                    <a href="https://www.dio.me/certificate/9B73BF35/share" target="_blank"><img src="image/certificados/15.jpg" alt=""></a>
-                </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <a
+                href="https://www.dio.me/certificate/9B0A195B/share"
+                target="_blank"
+                ><img src="image/certificados/14.jpg" alt=""
+              /></a>
             </div>
-            <div class="card">
-                <div class="box">
-                    <a href="https://www.dio.me/certificate/755459B6/share" target="_blank"><img src="image/certificados/16.jpg" alt=""></a>
-                </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <a
+                href="https://www.dio.me/certificate/9B73BF35/share"
+                target="_blank"
+                ><img src="image/certificados/15.jpg" alt=""
+              /></a>
             </div>
-            <div class="card">
-                <div class="box">
-                    <a href="https://www.dio.me/certificate/A5F9E41D/share" target="_blank"><img src="image/certificados/17.jpg" alt=""></a>
-                </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <a
+                href="https://www.dio.me/certificate/755459B6/share"
+                target="_blank"
+                ><img src="image/certificados/16.jpg" alt=""
+              /></a>
             </div>
-            <div class="card">
-                <div class="box">
-                    <a href="https://www.dio.me/certificate/CD082351/share"target="_blank"><img src="image/certificados/18.jpg" alt=""></a>
-                </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <a
+                href="https://www.dio.me/certificate/A5F9E41D/share"
+                target="_blank"
+                ><img src="image/certificados/17.jpg" alt=""
+              /></a>
             </div>
-            <div class="card">
-                <div class="box">
-                    <a href="https://www.dio.me/certificate/D3C6BDAE/share" target="_blank"><img src="image/certificados/19.jpg" alt=""></a>
-                </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <a
+                href="https://www.dio.me/certificate/CD082351/share"
+                target="_blank"
+                ><img src="image/certificados/18.jpg" alt=""
+              /></a>
             </div>
-            <div class="card">
-                <div class="box">
-                    <a href="https://www.dio.me/certificate/A8DBCBEA/share" target="_blank"><img src="image/certificados/20.jpg" alt=""></a>
-                </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <a
+                href="https://www.dio.me/certificate/D3C6BDAE/share"
+                target="_blank"
+                ><img src="image/certificados/19.jpg" alt=""
+              /></a>
             </div>
-            <div class="card">
-                <div class="box">
-                    <a href="https://www.dio.me/certificate/FD17E073/share" target="_blank"><img src="image/certificados/21.jpg" alt=""></a>
-                </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <a
+                href="https://www.dio.me/certificate/A8DBCBEA/share"
+                target="_blank"
+                ><img src="image/certificados/20.jpg" alt=""
+              /></a>
             </div>
-            <div class="card">
-                <div class="box">
-                    <a href="https://www.dio.me/certificate/39DB1599/share" target="_blank"><img src="image/certificados/22.jpg" alt=""></a>
-                </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <a
+                href="https://www.dio.me/certificate/FD17E073/share"
+                target="_blank"
+                ><img src="image/certificados/21.jpg" alt=""
+              /></a>
             </div>
-            <div class="card">
-                <div class="box">
-                    <a href="https://www.dio.me/certificate/B13B51A8/share" target="_blank"><img src="image/certificados/23.jpg" alt=""></a>
-                </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <a
+                href="https://www.dio.me/certificate/39DB1599/share"
+                target="_blank"
+                ><img src="image/certificados/22.jpg" alt=""
+              /></a>
             </div>
-            <div class="card">
-                <div class="box">
-                    <a href="https://www.dio.me/certificate/48E13DD3/share" target="_blank"><img src="image/certificados/24.jpg" alt=""></a>
-                </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <a
+                href="https://www.dio.me/certificate/B13B51A8/share"
+                target="_blank"
+                ><img src="image/certificados/23.jpg" alt=""
+              /></a>
             </div>
-            <div class="card">
-                <div class="box">
-                    <a href="https://www.dio.me/certificate/29A0E06B/share" target="_blank"><img src="image/certificados/25.jpg" alt=""></a>
-                </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <a
+                href="https://www.dio.me/certificate/48E13DD3/share"
+                target="_blank"
+                ><img src="image/certificados/24.jpg" alt=""
+              /></a>
             </div>
-            <div class="card">
-                <div class="box">
-                    <a href="https://www.dio.me/certificate/44F6D2AC/share" target="_blank"><img src="image/certificados/26.jpg" alt=""></a>
-                </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <a
+                href="https://www.dio.me/certificate/29A0E06B/share"
+                target="_blank"
+                ><img src="image/certificados/25.jpg" alt=""
+              /></a>
             </div>
-            <div class="card">
-                <div class="box">
-                    <a href="https://www.dio.me/certificate/184CCDC0/share" target="_blank"><img src="image/certificados/27.jpg" alt=""></a>
-                </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <a
+                href="https://www.dio.me/certificate/44F6D2AC/share"
+                target="_blank"
+                ><img src="image/certificados/26.jpg" alt=""
+              /></a>
             </div>
-            <div class="card">
-                <div class="box">
-                    <a href="https://www.dio.me/certificate/2E22C571/share" target="_blank"><img src="image/certificados/28.jpg" alt=""></a>
-                </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <a
+                href="https://www.dio.me/certificate/184CCDC0/share"
+                target="_blank"
+                ><img src="image/certificados/27.jpg" alt=""
+              /></a>
             </div>
-            <div class="card">
-                <div class="box">
-                    <a href="https://www.dio.me/certificate/83BD0BD4/share" target="_blank"><img src="image/certificados/29.jpg" alt=""></a>
-                </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <a
+                href="https://www.dio.me/certificate/2E22C571/share"
+                target="_blank"
+                ><img src="image/certificados/28.jpg" alt=""
+              /></a>
             </div>
-            <div class="card">
-                <div class="box">
-                    <a href="https://www.dio.me/certificate/A0926327/share" target="_blank"><img src="image/certificados/30.jpg" alt=""></a>
-                </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <a
+                href="https://www.dio.me/certificate/83BD0BD4/share"
+                target="_blank"
+                ><img src="image/certificados/29.jpg" alt=""
+              /></a>
             </div>
-            <div class="card">
-                <div class="box">
-                    <a href="https://www.dio.me/certificate/12819F8E/share" target="_blank"><img src="image/certificados/31.jpg" alt=""></a>
-                </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <a
+                href="https://www.dio.me/certificate/A0926327/share"
+                target="_blank"
+                ><img src="image/certificados/30.jpg" alt=""
+              /></a>
             </div>
-            <div class="card">
-                <div class="box">
-                    <a href="https://www.dio.me/certificate/473D8DC0/share" target="_blank"><img src="image/certificados/32.jpg" alt=""></a>
-                </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <a
+                href="https://www.dio.me/certificate/12819F8E/share"
+                target="_blank"
+                ><img src="image/certificados/31.jpg" alt=""
+              /></a>
             </div>
-            <div class="card">
-                <div class="box">
-                    <a href="https://www.dio.me/certificate/CF62591A/share" target="_blank"><img src="image/certificados/33.jpg" alt=""></a>
-                </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <a
+                href="https://www.dio.me/certificate/473D8DC0/share"
+                target="_blank"
+                ><img src="image/certificados/32.jpg" alt=""
+              /></a>
             </div>
-            <div class="card">
-                <div class="box">
-                    <a href="https://www.dio.me/certificate/49F1F360/share" target="_blank"><img src="image/certificados/34.jpg" alt=""></a>
-                </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <a
+                href="https://www.dio.me/certificate/CF62591A/share"
+                target="_blank"
+                ><img src="image/certificados/33.jpg" alt=""
+              /></a>
             </div>
-            <div class="card">
-                <div class="box">
-                    <a href="https://www.dio.me/certificate/F919933C/share" target="_blank"><img src="image/certificados/35.jpg" alt=""></a>
-                </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <a
+                href="https://www.dio.me/certificate/49F1F360/share"
+                target="_blank"
+                ><img src="image/certificados/34.jpg" alt=""
+              /></a>
             </div>
-            <div class="card">
-                <div class="box">
-                    <a href="https://www.dio.me/certificate/29C2CF44/share" target="_blank"><img src="image/certificados/36.jpg" alt=""></a>
-                </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <a
+                href="https://www.dio.me/certificate/F919933C/share"
+                target="_blank"
+                ><img src="image/certificados/35.jpg" alt=""
+              /></a>
             </div>
-            <div class="card">
-                <div class="box">
-                    <a href="https://www.dio.me/certificate/49C8ECFD/share" target="_blank"><img src="image/certificados/37.jpg" alt=""></a>
-                </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <a
+                href="https://www.dio.me/certificate/29C2CF44/share"
+                target="_blank"
+                ><img src="image/certificados/36.jpg" alt=""
+              /></a>
             </div>
-            <div class="card">
-                <div class="box">
-                    <a href="https://www.dio.me/certificate/8083197A/share" target="_blank"><img src="image/certificados/38.jpg" alt=""></a>
-                </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <a
+                href="https://www.dio.me/certificate/49C8ECFD/share"
+                target="_blank"
+                ><img src="image/certificados/37.jpg" alt=""
+              /></a>
             </div>
-            <div class="card">
-                <div class="box">
-                    <a href="https://www.dio.me/certificate/7381560B/share" target="_blank"><img src="image/certificados/39.jpg" alt=""></a>
-                </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <a
+                href="https://www.dio.me/certificate/8083197A/share"
+                target="_blank"
+                ><img src="image/certificados/38.jpg" alt=""
+              /></a>
             </div>
-            <div class="card">
-                <div class="box">
-                    <a href="https://www.dio.me/certificate/F482DECC/share" target="_blank"><img src="image/certificados/40.jpg" alt=""></a>
-                </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <a
+                href="https://www.dio.me/certificate/7381560B/share"
+                target="_blank"
+                ><img src="image/certificados/39.jpg" alt=""
+              /></a>
             </div>
-            <div class="card">
-                <div class="box">
-                    <a href="https://www.dio.me/certificate/4BC1AE98/share" target="_blank"><img src="image/certificados/41.jpg" alt=""></a>
-                </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <a
+                href="https://www.dio.me/certificate/F482DECC/share"
+                target="_blank"
+                ><img src="image/certificados/40.jpg" alt=""
+              /></a>
             </div>
-            <div class="card">
-                <div class="box">
-                    <a href="https://www.dio.me/certificate/9ECF782F/share" target="_blank"><img src="image/certificados/42.jpg" alt=""></a>
-                </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <a
+                href="https://www.dio.me/certificate/4BC1AE98/share"
+                target="_blank"
+                ><img src="image/certificados/41.jpg" alt=""
+              /></a>
             </div>
-            <div class="card">
-                <div class="box">
-                    <a href="https://www.dio.me/certificate/BEA1C699/share" target="_blank"><img src="image/certificados/43.jpg" alt=""></a>
-                </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <a
+                href="https://www.dio.me/certificate/9ECF782F/share"
+                target="_blank"
+                ><img src="image/certificados/42.jpg" alt=""
+              /></a>
             </div>
-            <div class="card">
-                <div class="box">
-                    <a href="https://www.dio.me/certificate/EE2D4874/share" target="_blank"><img src="image/certificados/44.jpg" alt=""></a>
-                </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <a
+                href="https://www.dio.me/certificate/BEA1C699/share"
+                target="_blank"
+                ><img src="image/certificados/43.jpg" alt=""
+              /></a>
             </div>
-            <div class="card">
-                <div class="box">
-                    <a href="https://www.dio.me/certificate/23983A1B/share" target="_blank"><img src="image/certificados/45.jpg" alt=""></a>
-                </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <a
+                href="https://www.dio.me/certificate/EE2D4874/share"
+                target="_blank"
+                ><img src="image/certificados/44.jpg" alt=""
+              /></a>
             </div>
-            <div class="card">
-                <div class="box">
-                    <a href="https://www.dio.me/certificate/01A15E80/share" target="_blank"><img src="image/certificados/46.jpg" alt=""></a>
-                </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <a
+                href="https://www.dio.me/certificate/23983A1B/share"
+                target="_blank"
+                ><img src="image/certificados/45.jpg" alt=""
+              /></a>
             </div>
-            <div class="card">
-                <div class="box">
-                    <a href="https://www.dio.me/certificate/42A051AF/share" target="_blank"><img src="image/certificados/47.jpg" alt=""></a>
-                </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <a
+                href="https://www.dio.me/certificate/01A15E80/share"
+                target="_blank"
+                ><img src="image/certificados/46.jpg" alt=""
+              /></a>
             </div>
-            <div class="card">
-                <div class="box">
-                    <a href="https://www.dio.me/certificate/2AADBC5E/share" target="_blank"><img src="image/certificados/48.jpg" alt=""></a>
-                </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <a
+                href="https://www.dio.me/certificate/42A051AF/share"
+                target="_blank"
+                ><img src="image/certificados/47.jpg" alt=""
+              /></a>
             </div>
-            <div class="card">
-                <div class="box">
-                    <a href="https://www.dio.me/certificate/E0E6F23F/share" target="_blank"><img src="image/certificados/49.jpg" alt=""></a>
-                </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <a
+                href="https://www.dio.me/certificate/2AADBC5E/share"
+                target="_blank"
+                ><img src="image/certificados/48.jpg" alt=""
+              /></a>
             </div>
-            <div class="card">
-                <div class="box">
-                    <a href="https://www.dio.me/certificate/DA8AB913/share" target="_blank"><img src="image/certificados/50.jpg" alt=""></a>
-                </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <a
+                href="https://www.dio.me/certificate/E0E6F23F/share"
+                target="_blank"
+                ><img src="image/certificados/49.jpg" alt=""
+              /></a>
             </div>
-            <div class="card">
-                <div class="box">
-                    <a href="https://www.dio.me/certificate/06D0406F/share" target="_blank"><img src="image/certificados/51.jpg" alt=""></a>
-                </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <a
+                href="https://www.dio.me/certificate/DA8AB913/share"
+                target="_blank"
+                ><img src="image/certificados/50.jpg" alt=""
+              /></a>
             </div>
-            <div class="card">
-                <div class="box">
-                    <a href="https://www.dio.me/certificate/5C039B9E/share" target="_blank"><img src="image/certificados/52.jpg" alt=""></a>
-                </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <a
+                href="https://www.dio.me/certificate/06D0406F/share"
+                target="_blank"
+                ><img src="image/certificados/51.jpg" alt=""
+              /></a>
             </div>
-            <div class="card">
-                <div class="box">
-                    <a href="https://www.dio.me/certificate/53E44B2E/share" target="_blank"><img src="image/certificados/53.jpg" alt=""></a>
-                </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <a
+                href="https://www.dio.me/certificate/5C039B9E/share"
+                target="_blank"
+                ><img src="image/certificados/52.jpg" alt=""
+              /></a>
             </div>
-            <div class="card">
-                <div class="box">
-                    <a href="https://www.dio.me/certificate/5D456609/share" target="_blank"><img src="image/certificados/54.jpg" alt=""></a>
-                </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <a
+                href="https://www.dio.me/certificate/53E44B2E/share"
+                target="_blank"
+                ><img src="image/certificados/53.jpg" alt=""
+              /></a>
             </div>
-            <div class="card">
-                <div class="box">
-                    <a href="https://www.dio.me/certificate/EB82EE11/share" target="_blank"><img src="image/certificados/55.jpg" alt=""></a>
-                </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <a
+                href="https://www.dio.me/certificate/5D456609/share"
+                target="_blank"
+                ><img src="image/certificados/54.jpg" alt=""
+              /></a>
             </div>
-            
-           </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <a
+                href="https://www.dio.me/certificate/EB82EE11/share"
+                target="_blank"
+                ><img src="image/certificados/55.jpg" alt=""
+              /></a>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!--Sessão contato-->
     <section class="contact" id="contact">
-        <div class="max-width">
-            <h2 class="title">Contato</h2>
-            <div class="contact-content">
-               <div class="column left">
-                   <div class="text">Fale Conosco</div>
-               <div class="icons">
-                   <div class="row">
-                        <ion-icon name="person-outline"></ion-icon>
-                        <div class="info">
-                            <div class="head">Edvaldo Junior</div>
-                            <div class="sub-title"></div>
-                        </div>
-                   </div>
-                   <div class="row">
-                    <ion-icon name="earth-outline"></ion-icon>
-                    <div class="info">
-                        <div class="head">Súmare, SP</div>
-                        <div class="sub-title"></div>
-                    </div>
-               </div>
-               <div class="row">
+      <div class="max-width">
+        <h2 class="title">Contato</h2>
+        <div class="contact-content">
+          <div class="column left">
+            <div class="text">Fale Conosco</div>
+            <div class="icons">
+              <div class="row">
                 <ion-icon name="person-outline"></ion-icon>
                 <div class="info">
-                    <div class="head">edvaldoluizj@gmail.com</div>
-                    <div class="sub-title"></div>
+                  <div class="head">Edvaldo Junior</div>
+                  <div class="sub-title"></div>
                 </div>
-           </div>
-               </div>
-            </div><!--column left-->
-            <div class="column rigth">
-                <div class="text">Mensagem</div>
-                <form action="#">
-                    <div class="fields">
-                        <div class="field name">
-                            <input type="text" placeholder="Nome" required>
-                        </div>
-                        <div class="field email">
-                            <input type="email" placeholder="Email" required>
-                        </div>
-                    </div>
-                    <div class="field">
-                        <div class="field">
-                            <input type="text" placeholder="Sobrenome" required>
-                        </div>
-                        <div class="field textarea">
-                           <textarea  cols="30" rows="10" placeholder="Escrever...." required></textarea>
-                        </div>
-                        <div class="button">
-                            <button type="submit">Enviar</button>
-                        </div>
-                    </div>
-                </form>
+              </div>
+              <div class="row">
+                <ion-icon name="earth-outline"></ion-icon>
+                <div class="info">
+                  <div class="head">Sumaré - SP</div>
+                  <div class="sub-title"></div>
+                </div>
+              </div>
+              <div class="row">
+                <ion-icon name="person-outline"></ion-icon>
+                <div class="info">
+                  <div class="head">edvaldoluizj@gmail.com</div>
+                  <div class="sub-title"></div>
+                </div>
+              </div>
             </div>
-            </div>
+          </div>
+          <!--column left-->
+          <div class="column rigth">
+            <div class="text">Mensagem</div>
+            <form action="#">
+              <div class="fields">
+                <div class="field name">
+                  <input type="text" placeholder="Nome" required />
+                </div>
+                <div class="field email">
+                  <input type="email" placeholder="Email" required />
+                </div>
+              </div>
+              <div class="field">
+                <div class="field">
+                  <input type="text" placeholder="Sobrenome" required />
+                </div>
+                <div class="field textarea">
+                  <textarea
+                    cols="30"
+                    rows="10"
+                    placeholder="Escrever...."
+                    required
+                  ></textarea>
+                </div>
+                <div class="button">
+                  <button type="submit">Enviar</button>
+                </div>
+              </div>
+            </form>
+          </div>
         </div>
+      </div>
     </section>
 
     <!--sessão  footer-->
     <footer>
-        <span>Criado por <a href="https://github.com/edvaldoljr" target="_blank">Edvaldo</a> | Todos os direitos reservado 2022</span>
+      <span
+        >Criado por
+        <a href="https://github.com/edvaldoljr" target="_blank">Edvaldo</a> |
+        Todos os direitos reservado 2022</span
+      >
     </footer>
 
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-
-</body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+  </body>
 </html>
