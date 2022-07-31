@@ -193,6 +193,7 @@ footer {
   display: flex;
   left: auto;
   border: 2px solid #adb2b9;
+  border-radius: 50%;
 }
 
 /* .ilustracaodomeurosto{
