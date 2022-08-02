@@ -203,9 +203,8 @@ footer {
 .about .title::after {
   content: "Quem sou eu";
 }
-.about .about-content .left{
-    width: 35% ;
-    
+.about .about-content .left {
+  width: 35%;
 }
 .about .about-content .right {
   width: 55%;
@@ -295,18 +294,23 @@ footer {
 /*  sessão especialidades  */
 
 .skills .title::after {
-    content: "Habilidades";
-  }
-
-.imaghabilidades{
-    border-radius: 2%;
-    max-width: 85%;
-    max-height: 100%;
-    border: 2px solid #00804b;
+  content: "Habilidades";
 }
-.especialidades{
-    height: 200px;
-    width: 200px;
+
+.habilidades {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imaghabilidades {
+  border-radius: 2%;
+  max-width: 85%;
+  max-height: 100%;
+  border: 2px solid #00804b;
+}
+.especialidades {
+  height: 200px;
+  width: 200px;
 }
 .skills .skills-content .column {
   width: calc(50% - 30px);
