@@ -842,28 +842,33 @@
           <!--column left-->
           <div class="column rigth">
             <div class="text">Mensagem</div>
-            <form action="#">
+            <form
+            action="https://formsubmit.co/edvaldoluizj@gmail.com"
+            method="POST"
+          >
               <div class="fields">
                 <div class="field name">
-                  <input type="text" placeholder="Nome" required />
+                  <input type="text" name="Nome" id="nome" required />
                 </div>
                 <div class="field email">
-                  <input type="email" placeholder="Email" required />
+                  <input type="email" name="Email" id="email" required />
                 </div>
               </div>
               <div class="field">
                 <div class="field">
-                  <input type="text" placeholder="Sobrenome" required />
+                  <input type="text" name="Sobrenome" id="sobrenome" required />
                 </div>
                 <div class="field textarea">
                   <textarea
                     cols="30"
                     rows="10"
-                    placeholder="Escrever...."
+                    name="Mensagem"
+                    id="escrever...."
                     required
                   ></textarea>
                 </div>
                 <div class="button">
+                  <input type="hidden" name="_next" value="https://edvaldoljr.github.io/Site-Portifolio/">
                   <button type="submit">Enviar</button>
                 </div>
               </div>
