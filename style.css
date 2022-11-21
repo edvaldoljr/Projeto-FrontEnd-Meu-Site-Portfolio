@@ -62,7 +62,7 @@ html {
 .navbar.sticky .menu li a:hover {
   color: #fff;
 }
-/*  Home   inicio  */
+/*  Home   inicio  
 .home {
   display: flex;
   background: url(image/R.png) no-repeat;
@@ -72,6 +72,28 @@ html {
   min-height: 500px;
   font-family: "Ubuntu", sans-serif;
 }
+*/
+
+.home {
+  display: flex;
+  background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom
+    ),
+    url(image/R.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+  color: rgb(248, 251, 252);
+  min-height: 500px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+
+
+
 .home .max-width {
   margin: auto 0 auto 40px;
 }
