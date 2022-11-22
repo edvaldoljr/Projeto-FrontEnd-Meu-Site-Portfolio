@@ -108,7 +108,7 @@ html {
   background-position: center;
   background-attachment: fixed;
   height: 100vh;
-  color: rgb(136, 205, 230);
+  color:#fff;
   min-height: 500px;
   font-family: "Ubuntu", sans-serif;
 }
@@ -244,7 +244,7 @@ footer {
 } */
 
 .about .title::after {
-  content: "Quem sou eu";
+  content: "Objetivo";
 }
 .about .about-content .left {
   width: 35%;
@@ -409,7 +409,13 @@ footer {
   background: #00804b;
 }
 .skills .skills-content .right .java::before {
-  width: 80%;
+  width: 65%;
+}
+.skills .skills-content .right .spring::before {
+  width: 45%;
+}
+.skills .skills-content .right .postman::before {
+  width: 50%;
 }
 .skills .skills-content .right .html::before {
   width: 45%;
@@ -418,7 +424,13 @@ footer {
   width: 40%;
 }
 .skills .skills-content .right .js::before {
-  width: 30%;
+  width: 15%;
+}
+.skills .skills-content .right .react::before {
+  width: 8%;
+}
+.skills .skills-content .right .angular::before {
+  width: 8%;
 }
 .skills .skills-content .right .mysql::before {
   width: 30%;
@@ -428,6 +440,15 @@ footer {
 }
 .skills .skills-content .right .docker::before {
   width: 20%;
+}
+.skills .skills-content .right .heroku::before {
+  width: 30%;
+}
+.skills .skills-content .right .linux::before {
+  width: 50%;
+}
+.skills .skills-content .right .git::before {
+  width: 80%;
 }
 /*  sessão projeto  */
 .teams .title::after {
