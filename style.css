@@ -466,8 +466,6 @@ footer {
 }
 .teams .carousel .card img {
   
-  object-fit: cover;
-  border-radius: 0%;
   border: 5px solid #00804b;
   transition: all 0.3s ease;
 }
