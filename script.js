@@ -32,7 +32,7 @@ $(document).ready(function(){
          loop:true
      });
      var typed = new Typed(".typing-2", {
-        strings:[" á vários Bootcamps e cursos para aprimorar meus conhecimentos em Desenvolvimeno de Softwares e me manter atualizado. Tenho grande apreço e muito gosto pelos estudos, acredito na tecnologia como solução e facilitação de várias situações vividas diariamente. Das mais simples até as mais complexas e com bom preparo, é possível alcançar todas as metas."],
+        strings:[" a vários Bootcamps e cursos para aprimorar meus conhecimentos em Desenvolvimeno de Softwares e me manter atualizado. Tenho grande apreço e muito gosto pelos estudos, acredito na tecnologia como solução e facilitação de várias situações vividas diariamente. Das mais simples até as mais complexas e com bom preparo, é possível alcançar todas as metas."],
         typeSpeed:100,
         backSpeed:60,
         loop:true
