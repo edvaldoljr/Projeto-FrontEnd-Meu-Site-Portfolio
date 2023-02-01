@@ -1,5 +1,7 @@
 # Projeto Meu Site Portfólio
 
+![](https://github.com/edvaldoljr/Projeto-Meu-Site-Portifolio/blob/main/image/certificados/img-projeto.gif?raw=true)
+
 Olá! Seja bem-vindo ao meu portfólio online. Neste site, apresento alguns dos meus trabalhos e projetos realizados ao longo da minha carreira como desenvolvedor.
 
 Utilizei HTML, CSS e JavaScript para criar uma interface atraente e de fácil navegação. Além disso, fiz questão de utilizar recursos de responsividade para que o site se adapte perfeitamente a diferentes tamanhos de tela, garantindo uma boa experiência de usuário em qualquer dispositivo.
@@ -13,10 +15,6 @@ Espero que você goste do site e que possa encontrar informações úteis e insp
 Estou hospedando meu projeto no GitPages, uma plataforma de hospedagem gratuita para projetos baseados em Git. Com GitPages, podemos compartilhar nosso trabalho com o mundo e de forma fácil e rápida. Além disso, a integração com o GitHub torna ainda mais simples o processo de desenvolvimento, teste e implantação de nossas aplicações.
 
 ## Acesso o Link e confira: https://edvaldoljr.github.io/Projeto-Meu-Site-Portifolio/
-
-
-
-![](https://github.com/edvaldoljr/Projeto-Meu-Site-Portifolio/blob/main/image/certificados/img-projeto.gif?raw=true)
 
 # ⭐️ **Deixe um Star** ⭐️
 
