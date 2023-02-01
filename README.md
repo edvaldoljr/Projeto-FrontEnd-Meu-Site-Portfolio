@@ -16,7 +16,7 @@ Estou hospedando meu projeto no GitPages, uma plataforma de hospedagem gratuita 
 
 
 
-![]()
+![](https://github.com/edvaldoljr/Projeto-Meu-Site-Portifolio/blob/main/image/certificados/img-projeto.gif?raw=true)
 
 # ⭐️ **Deixe um Star** ⭐️
 
