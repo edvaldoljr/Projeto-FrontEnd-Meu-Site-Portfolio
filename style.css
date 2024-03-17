@@ -424,13 +424,13 @@ footer {
   width: 40%;
 }
 .skills .skills-content .right .js::before {
-  width: 15%;
+  width: 40%;
 }
 .skills .skills-content .right .react::before {
-  width: 8%;
+  width: 10%;
 }
 .skills .skills-content .right .angular::before {
-  width: 8%;
+  width: 10%;
 }
 .skills .skills-content .right .mysql::before {
   width: 30%;
