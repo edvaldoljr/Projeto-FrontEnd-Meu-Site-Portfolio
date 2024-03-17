@@ -411,15 +411,25 @@ footer {
 .skills .skills-content .right .java::before {
   width: 65%;
 }
+.skills .skills-content .right .python::before {
+  width: 40%;
+}
 .skills .skills-content .right .spring::before {
   width: 45%;
 }
 .skills .skills-content .right .postman::before {
   width: 50%;
 }
+
+.skills .skills-content .right .aws::before {
+  width: 20%;
+}
+
+
 .skills .skills-content .right .html::before {
   width: 45%;
 }
+
 .skills .skills-content .right .css::before {
   width: 40%;
 }
@@ -432,11 +442,11 @@ footer {
 .skills .skills-content .right .angular::before {
   width: 10%;
 }
-.skills .skills-content .right .mysql::before {
-  width: 30%;
-}
 .skills .skills-content .right .postgres::before {
   width: 42%;
+}
+.skills .skills-content .right .mysql::before {
+  width: 40%;
 }
 .skills .skills-content .right .docker::before {
   width: 20%;
@@ -689,6 +699,7 @@ footer span a:hover {
     max-width: 800px;
     padding: 0 50px;
   }
+  
   .menu-btn {
     display: block;
     z-index: 999;
